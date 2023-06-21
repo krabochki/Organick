@@ -159,7 +159,7 @@ section.L {
 section.L > div {
   display: grid;
 
-  background-image: url(/Organick/Ads/Images/Home/L\ bg.jpg);
+  background-image: url(/Organick/Assets/Images/Home/L\ bg.jpg);
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -230,7 +230,7 @@ section.K p:first-of-type::before {
   top: 50%;
   left: -2rem;
   transform: translateY(-50%);
-  background-image: url(/Organick/Ads/Images/Home/person.png);
+  background-image: url(/Organick/Assets/Images/Home/person.png);
   background-size: auto 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -305,12 +305,12 @@ section.K > div:last-of-type > div > div:last-of-type {
 section.K > div:last-of-type > div:last-of-type {
   grid-column: 1;
   grid-row: 1;
-  background-image: url("/Assets/Images/Home/K\ \(2\).png");
+  background-image: url("/Organick/Assets/Images/Home/K\ \(2\).png");
 }
 section.K > div:last-of-type > div:first-of-type {
   grid-column: 2;
   grid-row: 1;
-  background-image: url("/Assets/Images/Home/K\ \(1\).png");
+  background-image: url("/Organick/Assets/Images/Home/K\ \(1\).png");
 }
 section.K > div:last-of-type > div {
   background-size: cover;
@@ -429,11 +429,11 @@ nav #shopbag button {
   margin-right: 0.6rem;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("/Assets/Images/Home/shopbag.png");
+  background-image: url("/Organick/Assets/Images/Home/shopbag.png");
 }
 nav #search button {
   background-color: #7eb693;
-  background-image: url("/Assets/Images/Home/search.png");
+  background-image: url("/Organick/Assets/Images/Home/search.png");
 }
 nav #shopbag button:hover {
   background-color: #007cad;
@@ -451,7 +451,7 @@ nav ul {
 .A {
   grid-area: a;
   background-color: #f1eff0;
-  background-image: url("/Assets/Images/Home/firstBlockBackground.png");
+  background-image: url("/Organick/Assets/Images/Home/firstBlockBackground.png");
   min-height: 100vh;
   display: flex;
   position: relative;
@@ -578,11 +578,11 @@ button > span {
 }
 .B > div:first-child {
   background-color: #f96893;
-  background-image: url("/Assets/Images/Home/secondBlockBackground2.jpg");
+  background-image: url("/Organick/Assets/Images/Home/secondBlockBackground2.jpg");
 }
 .B > div:last-child {
   background-color: #ebf0f4;
-  background-image: url("/Assets/Images/Home/secondBlockBackground1.jpg");
+  background-image: url("/Organick/Assets/Images/Home/secondBlockBackground1.jpg");
 }
 .B div h3,
 .D h3 {
@@ -618,7 +618,7 @@ button > span {
   min-height: 100vh;
   width: 100vw;
   background-color: #ffffff;
-  background-image: url(/Organick/Ads/Images/Home/G\ bg.jpg);
+  background-image: url(/Organick/Assets/Images/Home/G\ bg.jpg);
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: left center;
@@ -657,27 +657,27 @@ section.G p {
   flex-direction: column;
   justify-content: center;
   background-color: var(--bg-color);
-  background-image: url("/Assets/Images/Home/thirdBlockBackground.png");
+  background-image: url("/Organick/Assets/Images/Home/thirdBlockBackground.png");
   background-size: 48vw;
   background-position: 4rem center;
   background-repeat: no-repeat;
 }
-.C div {
+.C div div {
   display: flex;
   align-items: center;
 }
-.C div span p {
+.C div div span p {
   width: 75%;
 }
-.C div h6 {
+.C div div h6 {
   font-size: var(--heading-h6-text);
   font-weight: 800;
   margin-bottom: 0.3rem;
 }
-.C div {
+.C  div div {
   margin: 0.5rem 0;
 }
-.C div div {
+.C  div div div {
   width: 5rem;
   height: 5rem;
 
@@ -731,11 +731,11 @@ section.G p {
   background: gray;
 }
 
-.C div:nth-of-type(2) div {
-  background-image: url("/Assets/Images/Home/Vegan Food.png");
+.C  div div:nth-of-type(2) div {
+  background-image: url("/Organick/Assets/Images/Home/Vegan Food.png");
 }
-.C div:last-of-type div {
-  background-image: url("/Assets/Images/Home/Mailbox Quality.png");
+.C div div:last-of-type div {
+  background-image: url("/Organick/Assets/Images/Home/Mailbox Quality.png");
 }
 .C p {
   color: var(--dark-gray-color);
@@ -806,7 +806,7 @@ section.G p {
   border: none;
   width: 100%;
   height: 9rem;
-  background-image: url("/Assets/Images/Home/bread.png");
+  background-image: url("/Organick/Assets/Images/Home/bread.png");
   background-blend-mode: multiply;
 
   background-color: #f9f8f8;
@@ -814,25 +814,25 @@ section.G p {
 }
 
 .D article:nth-of-type(1) .img {
-  background-image: url("/Assets/Images/Home/brokkoli.png") !important;
+  background-image: url("/Organick/Assets/Images/Home/brokkoli.png") !important;
 }
 .D article:nth-of-type(2) .img {
-  background-image: url("/Assets/Images/Home/banana.png") !important;
+  background-image: url("/Organick/Assets/Images/Home/banana.png") !important;
 }
 .D article:nth-of-type(3) .img {
-  background-image: url("/Assets/Images/Home/white nuts.png") !important;
+  background-image: url("/Organick/Assets/Images/Home/white nuts.png") !important;
 }
 .D article:nth-of-type(4) .img {
-  background-image: url("/Assets/Images/Home/tomato.png") !important;
+  background-image: url("/Organick/Assets/Images/Home/tomato.png") !important;
 }
 .D article:nth-of-type(5) .img {
-  background-image: url("/Assets/Images/Home/mung bean.png") !important;
+  background-image: url("/Organick/Assets/Images/Home/mung bean.png") !important;
 }
 .D article:nth-of-type(6) .img {
-  background-image: url("/Assets/Images/Home/hazelnuts.png") !important;
+  background-image: url("/Organick/Assets/Images/Home/hazelnuts.png") !important;
 }
 .D article:nth-of-type(7) .img {
-  background-image: url("/Assets/Images/Home/eggs.png") !important;
+  background-image: url("/Organick/Assets/Images/Home/eggs.png") !important;
 }
 .D article h6,
 .F div h6 {
@@ -961,22 +961,22 @@ footer > div:nth-last-of-type(3) > p {
 footer > div:nth-last-of-type(3) > a:nth-of-type(1) {
   grid-column: 1;
   grid-row: 3;
-  background-image: url(/Organick/Ads/Images/Home/Vector\ \(5\).png);
+  background-image: url(/Organick/Assets/Images/Home/Vector\ \(5\).png);
 }
 footer > div:nth-last-of-type(3) > a:nth-of-type(2) {
   grid-column: 2;
   grid-row: 3;
-  background-image: url(/Organick/Ads/Images/Home/Vector\ \(6\).png);
+  background-image: url(/Organick/Assets/Images/Home/Vector\ \(6\).png);
 }
 footer > div:nth-last-of-type(3) > a:nth-of-type(3) {
   grid-column: 3;
   grid-row: 3;
-  background-image: url(/Organick/Ads/Images/Home/Vector\ \(7\).png);
+  background-image: url(/Organick/Assets/Images/Home/Vector\ \(7\).png);
 }
 footer > div:nth-last-of-type(3) > a:nth-of-type(4) {
   grid-column: 4;
   grid-row: 3;
-  background-image: url(/Organick/Ads/Images/Home/Vector\ \(8\).png);
+  background-image: url(/Organick/Assets/Images/Home/Vector\ \(8\).png);
 }
 
 footer > div:nth-last-of-type(3) > a {
@@ -1087,8 +1087,8 @@ footer > div:nth-of-type(4) {
   min-height: 100vh;
   width: 100vw;
 
-  background-image: url("/Assets/Images/Home/bg\ \(2\).png"),
-    url("/Assets/Images/Home/bg\ \(1\).png");
+  background-image: url("/Organick/Assets/Images/Home/bg\ \(2\).png"),
+    url("/Organick/Assets/Images/Home/bg\ \(1\).png");
   background-position: center left, center right;
   background-repeat: no-repeat, no-repeat;
   background-size: auto 100%, auto 100%;
@@ -1163,13 +1163,13 @@ section.H > div h6 {
 }
 
 section.H > div:nth-of-type(1) {
-  background-image: url(/Organick/Ads/Images/Home/H\ bg3.jpg);
+  background-image: url(/Organick/Assets/Images/Home/H\ bg3.jpg);
 }
 section.H > div:nth-of-type(2) {
-  background-image: url(/Organick/Ads/Images/Home/H\ bg2.jpg);
+  background-image: url(/Organick/Assets/Images/Home/H\ bg2.jpg);
 }
 section.H > div:nth-of-type(3) {
-  background-image: url(/Organick/Ads/Images/Home/H\ bg1.jpg);
+  background-image: url(/Organick/Assets/Images/Home/H\ bg1.jpg);
 }
 
 #ads img{
@@ -1819,13 +1819,13 @@ height: 7rem;
     padding: 0;
     margin: 0;
   }
-  .C > span > p:last-of-type {
+  .C > div > p:last-of-type {
     width: 75%;
   }
   .C h2 {
     white-space: pre-line;
   }
-  .C > span {
+  .C > div {
     height: 100%;
     width: 100%;
     padding: 2rem 4rem;
@@ -1908,10 +1908,10 @@ height: 7rem;
     padding: 0;
     margin: 0;
   }
-  .C > span > p:last-of-type {
+  .C > div > p:last-of-type {
     width: 75%;
   }
-  .C > span {
+  .C > div {
     height: 100vh;
     width: 100%;
     padding: 2rem 2.5rem;
@@ -1935,16 +1935,16 @@ height: 7rem;
   nav {
     width: auto;
   }
-  .C div div {
+  .C div div div {
     margin: 0;
     width: 8rem;
     height: 8rem;
     margin-right: 1rem;
   }
-  .C div span p {
+  .C div div span p {
     width: 100%;
   }
-  .C div {
+  .C div div {
     text-align: left;
     margin-left: auto;
     margin-right: auto;
