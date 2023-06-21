@@ -1,0 +1,207 @@
+
+.F {
+  grid-area: f;
+  padding: 10vw;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #274c5b;
+  grid-template-areas:
+    "a a a b"
+    "c c c b"
+    "d e f g";
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-rows: max-content max-content max-content;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 1.5rem;
+}
+
+.F > p {
+  grid-area: a;
+  margin-bottom: 1rem;
+  align-self: center;
+}
+.F h2 {
+  grid-area: c;
+  color: white;
+  margin: 0;
+}
+.F > button {
+  align-self: center;
+  grid-area: b;
+  justify-self: right;
+
+  width: 100%;
+  height: 70%;
+  padding: 1rem 1rem;
+}
+
+
+.F > .card {
+    margin-top: 2rem;
+
+  background: #f9f8f8;
+  border-radius: 30px;
+  display: grid;
+  grid-template-areas:
+    "a a a"
+    "b b b"
+    "c c c"
+    "d e f";
+  align-content: center;
+  grid-template-columns: min-content min-content auto;
+  box-shadow: 0.2em 0.2em 1em rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+
+}
+.F > .card:nth-of-type(2) {
+  grid-area: d;
+}
+.F > .card:nth-of-type(3) {
+  grid-area: e;
+}
+
+.F > .card:nth-of-type(4) {
+  grid-area: f;
+}
+
+.F > .card:nth-of-type(5) {
+  grid-area: g;
+}
+
+
+
+.F div .img {
+  height: 32vh;
+
+  background-size: 100% auto;
+}
+
+.F .card:nth-of-type(2) .img {
+  background-image: url("/Assets/Images/Home/brokkoli2.png") !important;
+}
+.F .card:nth-of-type(3) .img {
+  background-image: url("/Assets/Images/Home/zuckinni.png") !important;
+}
+.F .card:nth-of-type(4) .img {
+  background-image: url("/Assets/Images/Home/onion.png") !important;
+}
+.F .card:nth-of-type(5) .img {
+  background-image: url("/Assets/Images/Home/cabbage.png") !important;
+}
+
+.F div h6 {
+  font-size: 1.4rem;
+  padding-bottom: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.F div .lastcena {
+  font-size: 0.9rem;
+  justify-self: left;
+}
+
+.F div .newcena {
+  font-size: 1rem;
+  justify-self: left;
+  margin-left: 0.5rem;
+}
+
+
+
+@media (max-width: 1000px) and (min-width: 320px) {
+
+
+      
+
+      
+  .F {
+    grid-template-areas:
+      "a a b b"
+      "c c b b"
+      "d d e e"
+      "f f g g";
+    grid-template-rows: max-content max-content 32vh 32vh;
+    grid-template-columns: 16vh 16vh 16vh 16vh;
+    column-gap: 1.5rem;
+  }
+
+  .F {
+    padding: 8vw;
+    grid-template-areas:
+      "a a a a"
+      "c c c c"
+      "b b b b"
+      "d d e e"
+      "f f g g";
+    grid-template-rows: max-content max-content max-content max-content max-content;
+    grid-template-columns: max-content max-content max-content max-content;
+
+  }
+
+  .F > button {
+    align-self: center;
+
+    margin-right: 0;
+    width: fit-content;
+    justify-self: center;
+    margin: 0 0 0.4rem 0;
+    padding: 2rem 2.5rem;
+    border-radius: 12px;
+  }
+
+  
+  .F h2 {
+    margin: 0;
+    height: 3rem;
+    margin-bottom:1rem;
+
+    justify-self: center;
+  }
+  .F .beautiful-paragraph {
+    justify-self: center;
+    margin-bottom:1rem;
+    height: 2rem;
+    grid-area: a;
+  }
+
+  
+  .F .newcena {
+    display: none;
+  }
+  .F div h6 {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    justify-self: center;
+  }
+  .F div .img{
+    width: 38vmin;
+    height: 38vmin;
+    background-size: cover;
+    margin: 0 auto;
+    
+    min-width: 180px;
+    min-height: 180px;
+  }
+}
+
+
+
+@media (max-width: 480px) and (min-width: 320px) {
+
+    .F div .img{
+
+
+        width: 36vmin;
+        height: 40vmin;
+        min-width: 125px;
+        min-height: 125px;
+        margin: 0 auto;
+      }
+
+  .F div h6 {
+    display: none;
+  }
+}

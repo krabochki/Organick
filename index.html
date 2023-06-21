@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="google" content="notranslate">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Polina Kuzmenok and Organic Company">
+  <meta name="keywords" content="Healthy food, nutrition, organic food">
+  <meta name="description" content="Our website provides valuable information about healthy and organic food. Learn more about the benefits of proper nutrition.">
+    <title>Organick</title>
+    <link rel="icon" type="image/x-icon" href="Assets/Images/All/icon.png">
+    <link rel="stylesheet" href="Styles/select.css" media="all" onload="this.media='all'">
+
+    <link rel="stylesheet" href="Styles/main.css" media="all" onload="this.media='all'">
+    <link rel="stylesheet" href="Styles/star.css" media="all" onload="this.media='all'">
+    <link rel="stylesheet" href="Styles/carousel.css" media="all" onload="this.media='all'">
+
+    <link rel="stylesheet" href="Styles/F.css" media="all" onload="this.media='all'">
+
+    
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body onscroll="myevent">
+
+    <main id="wrapper">
+        <div id="preloader">
+            <div id="loader"></div>
+          </div>        <div id="ads">
+            <img src="Assets/Images/ads/alibag.png" alt="">
+            <div>
+                <b>Buy with Aliexpress</b>
+                <p>Are you tired of the same old shopping experience? Look no further than AliExpress – your ultimate online shopping destination! With millions of products at unbeatable prices, we're here to revolutionize your shopping journey.
+
+                </p>
+            </div>
+            <div id="close">✕</div>
+        </div>
+
+        <a href="#" id="scrollToTopButton" title="Наверх"></a>
+
+        <header class="header">  <!-- шапка -->
+            <nav>
+              
+                <div id="symbolism">
+                    <a href="">
+                        <img src="Assets/Images/All/icon.png" alt="Logotype of Our Company" title="Logotype of Our Company">
+                        <div>Organick</div>
+                    </a>
+                </div>
+
+                <div id="hamb" >
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+
+                <div id="hambdiv">
+                    <ul id="hambul">
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li>      
+                            
+                            <div class="select">
+                                <div class="select__head">Pages</div>
+                                <ul class="select__list" style="display: none;">
+                                    <li class="select__item"><a href="Pages/Services.html">Services</a></li>
+                                    <li class="select__item"><a href="Pages/Quality Standard.html">Quality Standard</a></li>
+                                    <li class="select__item"><a href="Pages/Portfolio Standard.html">Portfolio Standard</a></li>
+                                    <li class="select__item"><a href="Pages/Our Team.html">Our Team</a></li>
+                                </ul>
+                            </div>    
+                        </li>
+                        <li ><a href="Shop.html">Shop</a></li>
+                        <li><a href="Project.html">Project</a></li>
+                        <li><a href="News.html">News</a></li>
+                    </ul>
+                </div>
+                
+              <div> <div id="search">
+                    <input type="text" autocomplete="off" type="text"  maxlength="24" spellcheck="false"   placeholder="Type your search query">
+                    <button class="background"></button>
+                </div>
+                <div id="shopbag">
+                    <button></button>
+                    <div>Cart (0)</div>
+                </div>
+            </div> 
+            </nav>
+      
+        </header>
+
+        <section class="A background">
+            <img src="Assets/Images/Home/firstBlockBackgroundPatterns.png" title="Patterns for this Block" alt="Patterns for this Block">
+            <div>
+                <div class="beautiful-paragraph">100% Natural Food</div>
+                <h1>Choose the best 
+                    healthier way 
+                    of life</h1>
+                <button>       Explore Now     <span>➜</span>    </button>
+            </div>
+        </section>  <!-- разделы сайта -->
+        <section class="B">
+            <div class="background"> 
+                <div class="beautiful-paragraph">Natural!!</div> 
+                <h3>Get Garden 
+                    Fresh Fruits</h3>
+            </div>
+            <div class="background" >
+                <div class="beautiful-paragraph">Offer!!</div> 
+                <h3>Get 10% off 
+                    on Vegetables</h3>
+            </div>
+        </section>
+        <section class="C">
+
+       <span>
+                <div  class="beautiful-paragraph">About Us</div>
+                <h2>We Believe in Working
+                    Accredited Farmers</h2>
+                <p>Simply dummy text of the printing and typesetting industry. Lorem had ceased to 
+                    been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+               <div>
+    <div class="background"></div>
+                 <span>
+                        <h6>Organic Food Only</h6>
+                    <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                
+                 </span></div>
+            <div>
+                <div  class="background"></div>
+               <span>
+                    <h6>Quality Standards</h6>
+                    <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                
+               </span></div>
+            <button>Shop Now <span>➜</span></button>
+    
+       </span>
+        </section>
+        <section class="D">
+            <div  class="beautiful-paragraph">Categories</div>
+            <h3>Our Products</h3>
+           <span id="flex">
+                <article>
+    
+                    <div id="type">Vegetable</div>
+                    <div  class="img background"></div>
+                    <h6>Calabrese Broccoli</h6>
+                    <div class="lastcena">$20.00</div>
+                    <div class="newcena">$13.00</div>
+                    <div class="star-rating">
+                        <input type="radio" name="stars" id="star-a" value="5"/>
+                        <label for="star-a"></label>
+                  
+                        <input type="radio" name="stars" id="star-b" value="4"/>
+                        <label for="star-b"></label>
+                    
+                        <input type="radio" name="stars" id="star-c" value="3"/>
+                        <label for="star-c"></label>
+                    
+                        <input type="radio" name="stars" id="star-d" value="2"/>
+                        <label for="star-d"></label>
+                    
+                        <input type="radio" name="stars" id="star-e" value="1"/>
+                        <label for="star-e"></label>
+                  </div>
+    
+                </article>
+                <article>
+    
+                    <div id="type">Fresh</div>
+                    <div  class="img background"></div>
+                    <h6>Fresh Banana</h6>
+                    <div class="lastcena">$20.00</div>
+                    <div class="newcena">$14.00</div>
+                    <div class="star-rating">
+                        <input type="radio" name="stars1" id="star-a1" value="5"/>
+                        <label for="star-a1"></label>
+                  
+                        <input type="radio" name="stars1" id="star-b1" value="4"/>
+                        <label for="star-b1"></label>
+                    
+                        <input type="radio" name="stars1" id="star-c1" value="3"/>
+                        <label for="star-c1"></label>
+                    
+                        <input type="radio" name="stars1" id="star-d1" value="2"/>
+                        <label for="star-d1"></label>
+                    
+                        <input type="radio" name="stars1" id="star-e1" value="1"/>
+                        <label for="star-e1"></label>
+                  </div>
+                </article>
+                <article>
+    
+                    <div id="type">Millets</div>
+
+                    <div  class="img background"></div>
+                    <h6>White Nuts</h6>
+                    <div class="lastcena">$20.00</div>
+                    <div class="newcena">$15.00</div>
+                    <div class="star-rating">
+                        <input type="radio" name="stars2" id="star-a2" value="5"/>
+                        <label for="star-a2"></label>
+                  
+                        <input type="radio" name="stars2" id="star-b2" value="4"/>
+                        <label for="star-b2"></label>
+                    
+                        <input type="radio" name="stars2" id="star-c2" value="3"/>
+                        <label for="star-c2"></label>
+                    
+                        <input type="radio" name="stars2" id="star-d2" value="2"/>
+                        <label for="star-d2"></label>
+                    
+                        <input type="radio" name="stars2" id="star-e2" value="1"/>
+                        <label for="star-e2"></label>
+                  </div>
+                </article>
+                <article>
+    
+                    <div id="type">Vegetable</div>
+
+                    <div  class="img background"></div>
+                    <h6>Vegan Red Tomato</h6>
+                    <div class="lastcena">$20.00</div>
+                    <div class="newcena">$15.00</div>
+                    <div class="star-rating">
+                        <input type="radio" name="stars3" id="star-a3" value="5"/>
+                        <label for="star-a3"></label>
+                  
+                        <input type="radio" name="stars3" id="star-b3" value="4"/>
+                        <label for="star-b3"></label>
+                    
+                        <input type="radio" name="stars3" id="star-c3" value="3"/>
+                        <label for="star-c3"></label>
+                    
+                        <input type="radio" name="stars3" id="star-d3" value="2"/>
+                        <label for="star-d3"></label>
+                    
+                        <input type="radio" name="stars3" id="star-e3" value="1"/>
+                        <label for="star-e3"></label>
+                  </div>
+    
+                </article>
+                <article>
+    
+                    <div id="type">Health</div>
+
+                    <div  class="img background"></div>
+                    <h6>Mung Bean</h6>
+                    <div class="lastcena">$20.00</div>
+                    <div class="newcena">$11.00</div>
+                    <div class="star-rating">
+                        <input type="radio" name="stars" id="star-a4" value="5"/>
+                        <label for="star-a4"></label>
+                  
+                        <input type="radio" name="stars" id="star-b4" value="4"/>
+                        <label for="star-b4"></label>
+                    
+                        <input type="radio" name="stars" id="star-c4" value="3"/>
+                        <label for="star-c4"></label>
+                    
+                        <input type="radio" name="stars" id="star-d4" value="2"/>
+                        <label for="star-d4"></label>
+                    
+                        <input type="radio" name="stars" id="star-e4" value="1"/>
+                        <label for="star-e4"></label>
+                  </div>
+                </article>
+                <article>
+    
+                    <div id="type">Nuts</div>
+
+                    <div  class="img background"></div>
+                    <h6>Brown Hazelnut</h6>
+                    <div class="lastcena">$20.00</div>
+                    <div class="newcena">$12.00</div>
+                    <div class="star-rating">
+                        <input type="radio" name="stars5" id="star-a5" value="5"/>
+                        <label for="star-a5"></label>
+                  
+                        <input type="radio" name="stars5" id="star-b5" value="4"/>
+                        <label for="star-b5"></label>
+                    
+                        <input type="radio" name="stars5" id="star-c5" value="3"/>
+                        <label for="star-c5"></label>
+                    
+                        <input type="radio" name="stars5" id="star-d5" value="2"/>
+                        <label for="star-d5"></label>
+                    
+                        <input type="radio" name="stars5" id="star-e5" value="1"/>
+                        <label for="star-e5"></label>
+                  </div>
+    
+                </article>
+                <article>
+    
+                    <div id="type">Fresh</div>
+
+                    <div  class="img background"></div>
+                    <h6>Eggs</h6>
+                    <div class="lastcena">$20.00</div>
+                    <div class="newcena">$17.00</div>
+                    <div class="star-rating">
+                        <input type="radio" name="stars6" id="star-a6" value="5"/>
+                        <label for="star-a6"></label>
+                  
+                        <input type="radio" name="stars6" id="star-b6" value="4"/>
+                        <label for="star-b6"></label>
+                    
+                        <input type="radio" name="stars6" id="star-c6" value="3"/>
+                        <label for="star-c6"></label>
+                    
+                        <input type="radio" name="stars6" id="star-d6" value="2"/>
+                        <label for="star-d6"></label>
+                    
+                        <input type="radio" name="stars6" id="star-e6" value="1"/>
+                        <label for="star-e6"></label>
+                  </div>
+                </article>
+                <article>
+    
+                    <div id="type">Fresh</div>
+
+                    <div class="img background"></div>
+                    <h6>Fresh Bread</h6>
+                    <div class="lastcena">$20.00</div>
+                    <div class="newcena">$15.00</div>
+
+                    <div class="star-rating">
+                        <input type="radio" name="stars7" id="star-a7" value="5"/>
+                        <label for="star-a7"></label>
+                  
+                        <input type="radio" name="stars7" id="star-b7" value="4"/>
+                        <label for="star-b7"></label>
+                    
+                        <input type="radio" name="stars7" id="star-c7" value="3"/>
+                        <label for="star-c7"></label>
+                    
+                        <input type="radio" name="stars7" id="star-d7" value="2"/>
+                        <label for="star-d7"></label>
+                    
+                        <input type="radio" name="stars7" id="star-e7" value="1"/>
+                        <label for="star-e7"></label>
+                  </div>
+    
+                </article>
+    
+           </span>
+
+
+           <button>Load More <span>➜</span></button>
+
+        </section>
+
+        <section class="E">
+
+
+            <div>
+                <div class="beautiful-paragraph">Testimonial</div>
+                <h2>What Our Customer Saying?</h2>
+                    <div class="carousel">
+                            <div class="slide active">
+                              <img src="Assets/Images/Home/photo (1).png" alt="Customer 1 Photo" title="Customer 1 Photo">
+                              <div class="content">
+                               
+                        <div class="star-rating">
+                            <label for="star-a021"></label>
+                            <label for="star-b021"></label>
+                            <label for="star-c021"></label>
+                            <label for="star-d021"></label>
+                            <label for="star-e021"></label>
+                      </div>
+                      <p>I've recently started focusing on healthier eating habits, and incorporating dehydrated vegetables into my diet has been a game-changer. The convenience of having a variety of vegetables readily available in my pantry has made meal prep so much easier.</p>
+                
+                                </p>
+                                <h5>Sara Taylor</h5>
+                                <p>Consumer</p>
+                              </div>
+                            </div>
+                            <div class="slide">
+                              <img src="Assets/Images/Home/photo (2).png" alt="Customer 2 Photo" title="Customer 2 Photo">
+                              <div class="content">
+                               
+                        <div class="star-rating">
+                            <label for="star-a021"></label>
+                            <label for="star-b021"></label>
+                            <label for="star-c021"></label>
+                            <label for="star-d021"></label>
+                            <label for="star-e021"></label>
+                      </div>
+                      <p>I've recently started focusing on healthier eating habits, and incorporating dehydrated vegetables into my diet has been a game-changer. The convenience of having a variety of vegetables readily available in my pantry has made meal prep so much easier.</p>
+                      <h5>Olivia Mitchell</h5>
+                                <p>Consumer</p>
+                              </div>
+                            </div>
+                            <div class="slide">
+                              <img src="Assets/Images/Home/photo (3).png" alt="Customer 3 Photo" title="Customer 3 Photo">
+                              <div class="content">
+                               
+                        <div class="star-rating">
+                            <label for="star-a021"></label>
+                            <label for="star-b021"></label>
+                            <label for="star-c021"></label>
+                            <label for="star-d021"></label>
+                            <label for="star-e021"></label>
+                      </div>
+                                <p>I've recently started focusing on healthier eating habits, and incorporating dehydrated vegetables into my diet has been a game-changer. The convenience of having a variety of vegetables readily available in my pantry has made meal prep so much easier.</p>
+                                <h5>Britney Spears</h5>
+                                <p>Consumer</p>
+                              </div>
+                            </div>
+                            <div class="dots">
+                              <span class="dot active"></span>
+                              <span class="dot"></span>
+                              <span class="dot"></span>
+                            </div>
+                          </div>
+                          
+                        
+            
+            
+                      <div class="circle-container">
+                        <div class="circle">
+                          <h3>100%</h3>
+                          <p>Organic</p>
+                        </div>
+                        <div class="circle">
+                            <h3 id="numberblock">285</h3>
+                            <p>Active product</p>
+                        </div>
+                        <div class="circle">
+                            <h3>350+</h3>
+                            <p>Organic orchards</p>
+                        </div>
+                        <div class="circle">
+                            <h3>25+</h3>
+                            <p>Years of farming</p>
+                        </div>
+                      </div>
+                      
+                      
+             </div>
+
+        
+
+        </section>
+        <span  id="tooltip"> Content 2</span>
+
+        <section class="F">
+            <div  class="beautiful-paragraph">Offer</div>
+            <h2>We Offer Organic For You</h2>
+            <button>View All Product<span>➜</span></button>
+            <div class="card"  onmouseover="show(this)" onmouseout="hide(this)">
+
+                <div id="type">Vegetable</div>
+                <div  class="img background"></div>
+                <h6> Broccoli</h6>
+                <div class="lastcena">$20.00</div>
+                <div class="newcena">$11.00</div>
+                <div class="star-rating">
+                    <input type="radio" name="stars11" id="star-a11" value="5"/>
+                    <label for="star-a11"></label>
+              
+                    <input type="radio" name="stars11" id="star-b11" value="4"/>
+                    <label for="star-b11"></label>
+                
+                    <input type="radio" name="stars11" id="star-c11" value="3"/>
+                    <label for="star-c11"></label>
+                
+                    <input type="radio" name="stars11" id="star-d11" value="2"/>
+                    <label for="star-d11"></label>
+                
+                    <input type="radio" name="stars11" id="star-e11" value="1"/>
+                    <label for="star-e11"></label>
+              </div>
+            </div>
+            <div class="card"  onmouseover="show(this)" onmouseout="hide(this)">
+                <div id="type">Vegetable</div>
+                <div  class="img background"></div>
+                <h6>Zuchinni</h6>
+                <div class="lastcena">$20.00</div>
+                <div class="newcena">$12.00</div>
+                <div class="star-rating">
+                    <input type="radio" name="stars12" id="star-a12" value="5"/>
+                    <label for="star-a12"></label>
+              
+                    <input type="radio" name="stars12" id="star-b12" value="4"/>
+                    <label for="star-b12"></label>
+                
+                    <input type="radio" name="stars12" id="star-c12" value="3"/>
+                    <label for="star-c12"></label>
+                
+                    <input type="radio" name="stars12" id="star-d12" value="2"/>
+                    <label for="star-d12"></label>
+                
+                    <input type="radio" name="stars12" id="star-e12" value="1"/>
+                    <label for="star-e12"></label>
+              </div>
+            </div>
+            <div class="card"  onmouseover="show(this)" onmouseout="hide(this)">
+                <div id="type">Vegetable</div>
+                <div  class="img background"></div>
+                <h6>Onion</h6>
+                <div class="lastcena">$20.00</div>
+                <div class="newcena">$17.00</div>
+                <div class="star-rating">
+                    <input type="radio" name="stars13" id="star-a13" value="5"/>
+                    <label for="star-a13"></label>
+              
+                    <input type="radio" name="stars13" id="star-b13" value="4"/>
+                    <label for="star-b13"></label>
+                
+                    <input type="radio" name="stars13" id="star-c13" value="3"/>
+                    <label for="star-c13"></label>
+                
+                    <input type="radio" name="stars13" id="star-d13" value="2"/>
+                    <label for="star-d13"></label>
+                
+                    <input type="radio" name="stars13" id="star-e13" value="1"/>
+                    <label for="star-e13"></label>
+              </div>
+            </div>
+            <div class="card"  onmouseover="show(this)" onmouseout="hide(this)">
+                <div id="type">Vegetable</div>
+                <div  class="img background"></div>
+                <h6>Cabbage</h6>
+                <div class="lastcena">$20.00</div>
+                <div class="newcena">$17.00</div>
+                <div class="star-rating">
+                    <input type="radio" name="stars14" id="star-a14" value="5"/>
+                    <label for="star-a14"></label>
+              
+                    <input type="radio" name="stars14" id="star-b14" value="4"/>
+                    <label for="star-b14"></label>
+                
+                    <input type="radio" name="stars14" id="star-c14" value="3"/>
+                    <label for="star-c14"></label>
+                
+                    <input type="radio" name="stars14" id="star-d14" value="2"/>
+                    <label for="star-d14"></label>
+                
+                    <input type="radio" name="stars14" id="star-e14" value="1"/>
+                    <label for="star-e14"></label>
+              </div>
+            </div>
+        </section>
+
+        <section class="G flex">
+            <div>
+                
+                <div id="tabs" >
+                    <div class="selected">Start with us</div>
+                    <div>Grow yourself</div>
+                    <div>Farming</div>
+                </div>
+               <div id="wrap">
+                    <div class="beautiful-paragraph">Eco Friendly</div>
+                    <h2>Econis is a Friendly 
+                        Organic Store</h2>
+                    <p>Are you ready to embark on a journey of self-improvement and personal growth? Start with Our Company First! We offer a wide range of innovative and useful products that will help you enhance your daily life. From cutting-edge gadgets to health and wellness solutions, we have everything you need to kickstart your journey towards a better you. Trust in our company\'s commitment to quality and let us be your partner in growth and success. 
+                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Aenean leo ligula.
+                   
+                    </p>
+               </div>
+            </div>
+        </section>
+
+        <section class="H">
+            <div class="blur">
+                <h6>Organic juice</h6>
+            </div>
+            <div class="blur">
+                <h6>Organic food</h6>
+            </div>
+            <div class="blur">
+                <h6>Nuts cookis</h6>
+            </div>
+        </section>
+        <section class="K">
+            <div>
+                <div class="beautiful-paragraph">News</div>
+                <h2>Discover weekly content about organic food, & more</h2>
+                <button>More News<span>➜</span></button>
+            </div>
+            <div>
+                <div>
+                    <div>25 Nov</div>
+                    <div class="swim">
+                        <p>By Rachi Card</p>
+                        <h6>The Benefits of Vitamin D & How to Get It</h6>
+                        <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                        <button>Read More<span>➜</span> </button>
+                    </div>
+                </div>
+                <div>
+                    <div>30 Dec</div>
+                    <div class="swim">
+                        <p>By Rachi Card</p>
+                        <h6>Our Favourite Summertime Tommeto</h6>
+                        <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                        <button>Read More<span>➜</span> </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="L">
+            <div class="background"> 
+                <h2>Subscribe to 
+                    our Newsletter
+                    </h2>
+                <form>
+                    <input placeholder="Your Email Address" id="email-input" type="text" >
+                    <button>Subscribe</button>
+                </form>
+            </div>
+          
+        </section>
+        <footer class="footer">
+            <div>
+                <h4>Contact Us</h4>
+                <div>
+                    <h6>Email</h6>
+                    <p><a href="mailto:needhelp@Organia.com">needhelp@Organia.com</a></p>
+                </div>
+                <div>
+                    <h6>Phone</h6>
+                    <p><a href="tel:668 888 888">668 888 888</a></p>
+                </div>
+                <div>
+                    <h6>Address</h6>
+                    <p><a href="https://www.google.com/maps/search/?api=1&query=88+Road,+Brooklyn+street,+USA">88 road, Brooklyn street, USA</a></p>
+                </div>
+            </div>
+            <div>
+                    <div>
+                            <img src="Assets/Images/All/icon.png" alt="Logotype of Our Company" title="Logotype of Our Company">
+                            <div>Organick</div>
+                    </div>
+                    <p>Simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum simply dummy text of the printing </p>
+                        <a href="https://www.instagram.com/"></a>
+                        <a href="https://www.facebook.com/"></a>
+                        <a href="http://twitter.com/"></a>
+                        <a href="https://ru.pinterest.com/"></a>
+            </div>
+            <div>
+                <h4>Utility Page</h4>
+
+                <a href="#">Style Guide</a>
+                <a href="#">404 Not Found</a>
+                <a href="#">Password Protected</a>
+                <a href="#">Licences</a>
+                <a href="#">Changelog</a>
+            </div>
+            <div>
+                Copyright © <b>Organick</b> | Designed by <b>VictorFlow</b> Templates - Powered by <b>Webflow</b>
+            </div>
+        </footer>
+    </main>
+</body>
+<script src="Scripts/script .js"> </script>
+</html>
